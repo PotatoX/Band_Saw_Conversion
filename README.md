@@ -18,9 +18,9 @@ I now have a small band saw capable of cutting metal, wood, plastic, etc. that f
 
 This project encompass the conversion and in indented to share the process with other makers. If you have questions, need additional details, or see any bugs please let me know.
 
-The entire project can be found on GitHub. Consider contributing and making it even better if you happen to create other customizations.
+The entire project can be found on [GitHub](https://github.com/PotatoX/Band_Saw_Conversion/). Consider contributing and making it even better if you happen to create other customizations.
 
-Additionally, I will list parts used in this project on my OpenBazzar store.
+Additionally, I will list parts used in this project on my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu).
 
 ## Design Choices
 
