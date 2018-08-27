@@ -23,6 +23,10 @@ The entire project can be found on [GitHub](https://github.com/PotatoX/Band_Saw_
 Additionally, I will list parts used in this project on my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu).
 
 ## Design Choices
+Thnking ack thrpugh the steps taken from the begining to end; a text book design process was not followed, rather a development and refine!emt from blade to display.
+
+### The Blade
+There the first choice was to find a blade that fit and was capable of cutting metalss (steel). By default the saw comes equiped woth a wood cutting 62in blade, carbon steel, 7 Teeth per Inch (*TPI*), 1/8in wide. I had found a couple of reports online that indicate success cutting plastic and aluminium, so long as a gentle touch was used.
 
 ## The Physical Form
 
