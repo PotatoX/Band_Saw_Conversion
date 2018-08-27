@@ -1,0 +1,199 @@
+//---Streaming---//
+  #include <Streaming.h>
+//---Streaming---//
+
+//---PCF8574---//
+#include "PCF8574.h"
+#include <Wire.h>
+
+PCF8574 PCF_01(0x38);
+//---PCF8574---//
+
+// initialize global variable
+  double RPM = 0;
+  bool debugFlag = true;
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  
+  //initialize digital display on I2C
+  PCF_01.begin();
+  
+  // initialize digital pin 2 as DETECTOR_PIN
+  #define DETECTOR_PIN 2
+  #define LED_PIN 3
+  #define DISPLAY_1_ENABLE_PIN 7
+  #define DISPLAY_2_ENABLE_PIN 6
+  #define DISPLAY_3_ENABLE_PIN 5
+  #define DISPLAY_4_ENABLE_PIN 4
+  pinMode(DETECTOR_PIN, INPUT_PULLUP);
+  pinMode(DISPLAY_1_ENABLE_PIN, INPUT);
+  pinMode(DISPLAY_2_ENABLE_PIN, INPUT);
+  pinMode(DISPLAY_3_ENABLE_PIN, INPUT);
+  pinMode(DISPLAY_4_ENABLE_PIN, INPUT);
+  pinMode(LED_PIN, OUTPUT);
+
+  // enable digital display
+  digitalWrite(DISPLAY_1_ENABLE_PIN, HIGH);
+  digitalWrite(DISPLAY_2_ENABLE_PIN, HIGH);
+  digitalWrite(DISPLAY_3_ENABLE_PIN, HIGH);
+  digitalWrite(DISPLAY_4_ENABLE_PIN, HIGH);
+
+  // attach interput for detector
+  attachInterrupt(digitalPinToInterrupt(DETECTOR_PIN), detectedPickup, FALLING);  
+
+  // initialize serial communication at 115200 bits per second:
+  Serial.begin(115200);
+
+
+}
+
+// the loop function runs over and over again forever
+void loop() {
+//  // read the input on ditial pin 2:
+//  int sensorValue = digitalRead(2);
+//  
+//  // print out the value you read:
+//  Serial << sensorValue << endl;
+  
+  // reset pickup led to LOW
+  digitalWrite(LED_PIN, LOW);  
+
+  // write out RPM to serial
+  static unsigned long currentTime = millis();
+  if(millis() - currentTime > 2000)
+  {
+    Serial << "RPM: " << RPM << endl;  
+    currentTime = millis();
+  }
+
+  // write out display serial  
+  static int currentDigit = 1;
+  
+  //disable digit  
+  Serial << "Current Digit: " << currentDigit << endl;
+  digitalWrite(currentDigit, HIGH);
+  
+  //write current digit to display
+  String RPMString;
+  RPMString = (int) RPM;
+  Serial << "RPM String: " << endl;
+  RPMString = RPMString.charAt(currentDigit-1);
+  Serial << "RPM Char: " << endl;
+  PCF_01.write8(getDigit(RPMString.toInt()));
+
+  //show digit
+  digitalWrite(8-currentDigit, LOW);
+
+  //check digit count and index
+  if( currentDigit == 4 )
+  {
+    currentDigit = 1;
+  }
+  else
+  {
+    currentDigit += 1;
+  }
+
+  // delay in between reads for stability
+  delay(1000);        
+}
+
+void detectedPickup()
+{
+  static unsigned long currentTime = millis();  
+  static unsigned long lastTime = 0;
+
+  // set the current time
+  currentTime = millis();
+  
+  // setup array to store the last 10 values
+  #define BUFFER_SIZE 10
+  static unsigned long valueBuffer[BUFFER_SIZE] = {0};
+  static int valueBufferPointer = 0;
+
+  valueBuffer[valueBufferPointer] = currentTime - lastTime;
+
+  // store the current time for use next cycle
+  lastTime = currentTime;
+
+  // average the buffer values
+  unsigned long arraySum = 0;
+  for(int i = 0; i < BUFFER_SIZE; i++)
+  {
+    arraySum += valueBuffer[i];
+    Serial << "Array Value" << i + 1 << ": " << valueBuffer[i] << endl;
+  }
+
+  // calculate RPM (arrayAverage)
+  double arrayAverage = arraySum / BUFFER_SIZE;
+
+  // write RPM value to global variable
+  RPM = 1000/arrayAverage*60;  
+  Serial << "Buffer Pointer: " << valueBufferPointer << endl;
+
+  // write pickup led HIGH
+  digitalWrite(LED_PIN, HIGH);
+
+  // reset pointer
+  if (valueBufferPointer == BUFFER_SIZE - 1)
+  {    
+    valueBufferPointer = 0;
+    Serial << "Buffer pointer reset." << endl;
+  }
+  else
+  {
+    valueBufferPointer += 1;
+    Serial << "Increment pointer..." << endl;
+  }
+  
+}
+
+byte getDigit( int digit)
+{
+  #define DIGITAL_1 B00000110
+  #define DIGITAL_2 B01101101
+  #define DIGITAL_3 B01111001
+  #define DIGITAL_4 B00110011
+  #define DIGITAL_5 B01011011
+  #define DIGITAL_6 B01011111
+  #define DIGITAL_7 B01110000
+  #define DIGITAL_8 B01111111
+  #define DIGITAL_9 B01110011
+  #define DIGITAL_0 B01111110
+
+  switch(digit)
+  {
+    case 0:
+      return DIGITAL_0;
+    
+    case 1:
+      return DIGITAL_1;
+    
+    case 2:
+      return DIGITAL_2;
+          
+    case 3:
+      return DIGITAL_3;
+          
+    case 4:
+      return DIGITAL_4;
+          
+    case 5:
+      return DIGITAL_5;
+          
+    case 6:
+      return DIGITAL_6;
+          
+    case 7:
+      return DIGITAL_7;
+          
+    case 8:
+      return DIGITAL_8;
+          
+    case 9:
+      return DIGITAL_9;
+  }
+}
+
+
