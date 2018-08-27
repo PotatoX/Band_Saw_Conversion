@@ -30,11 +30,9 @@ There the first choice was to find a blade that fit and was capable of cutting m
 
 Therefpre the search began for a suitable bimetal blade. Most of my local stores carried various blades, some bimetal, but none in the 62in size. 62in appears to be a bit of a *custom* size. when local stores fail Amazon.com often saves the day. After scrolling though lists of blades I was able to to find a suitable blade; 62in, bimetal, 1/2in, 14 TPI.
 
-**Description**
-**Im
+[Imachinist S621214 62-inch X 1/2-inch X 14 TPI Bi-metal Band Saw Blades](https://www.amazon.com/gp/product/B010G9IJG6)
 
-age**
-**Link**
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/91MzAdiISML._SL1500_.jpg" width="20%" height="20%">
 
 ## The Physical Form
 
