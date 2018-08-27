@@ -26,7 +26,15 @@ Additionally, I will list parts used in this project on my [OpenBazzar store](ht
 Thnking ack thrpugh the steps taken from the begining to end; a text book design process was not followed, rather a development and refine!emt from blade to display.
 
 ### The Blade
-There the first choice was to find a blade that fit and was capable of cutting metalss (steel). By default the saw comes equiped woth a wood cutting 62in blade, carbon steel, 7 Teeth per Inch (*TPI*), 1/8in wide. I had found a couple of reports online that indicate success cutting plastic and aluminium, so long as a gentle touch was used.
+There the first choice was to find a blade that fit and was capable of cutting metalss (steel). By default the saw comes equiped woth a wood cutting 62in blade, carbon steel, 7 Teeth per Inch (*TPI*), 1/8in wide. I had found a couple of reports online that indicate success cutting plastic and aluminium, so long as a gentle touch was used. clearly the default blade had no chance of taking on steels.
+
+Therefpre the search began for a suitable bimetal blade. Most of my local stores carried various blades, some bimetal, but none in the 62in size. 62in appears to be a bit of a *custom* size. when local stores fail Amazon.com often saves the day. After scrolling though lists of blades I was able to to find a suitable blade; 62in, bimetal, 1/2in, 14 TPI.
+
+**Description**
+**Im
+
+age**
+**Link**
 
 ## The Physical Form
 
