@@ -85,7 +85,9 @@ Lastely I designed a small board which reads a hall sensor on the back of the mo
 #### Hall Effect Sensor
 
 #### Tachometer Board
-All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. 
+All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. I have excess boards that will be listed on OpenBazaar along with some of the odd components.
+
+ADD OPENBAZAAR LINK
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Tachometer.sch.svg" width="20%" height="20%">
 
