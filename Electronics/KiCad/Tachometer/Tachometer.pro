@@ -1,4 +1,4 @@
-update=6/16/2018 7:43:20 PM
+update=8/29/2018 8:13:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -77,3 +77,13 @@ LibName45=h:/Users/brand/OneDrive/Documents/KiCad/components/_power
 LibName46=h:/Users/brand/OneDrive/Documents/KiCad/components/_regulators
 LibName47=h:/Users/brand/OneDrive/Documents/KiCad/components/_relays
 LibName48=h:/Users/brand/OneDrive/Documents/KiCad/components/_transistors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
