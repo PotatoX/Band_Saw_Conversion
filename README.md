@@ -83,14 +83,21 @@ Lastely I designed a small board which reads a hall sensor on the back of the mo
 #### Hall Effect Sensor
 
 #### Tachometer Board
-All design has been complete in KiCad.
+All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. 
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Tachometer.sch.svg" width="20%" height="20%">
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/e889038e-7901-4f7f-9a18-62940a5edb01_1_0_1.png" width="20%" height="20%"> <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/e889038e-7901-4f7f-9a18-62940a5edb01_2_0_1.png" width="20%" height="20%">
 
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_1.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_2.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_3.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_4.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_5.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_6.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_7.png" width="20%" height="20%">
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/BOM.jpg" width="40%" height="40%">
+
+ADD COMONENTS + LINKS to Store 
 
 ### Software
+
+# Support Projects Like This
 
 # Safety/Disclaimer
 I am furnishing this item/content "as is". I do not does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
