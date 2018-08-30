@@ -36,51 +36,41 @@ Therefore the search began for a suitable bimetal blade. Most of my local stores
 
 The next challenge was to find a way to drive the blade @ ~300 FPM for Steel, 600ish FPM for Aluminum, and 2000 FPM for Wood. Looking at the stock motor it was designed to drive the blade at 2460 FPM and is not adjustable. Further the motor is an induction motor which can not be speed controlled without a frequency drive, and even with one, would loose power proportional to the reduction in frequency; meaning at slow speeds is would lose power.
 
-IMAGE Sticker
-20180827_052338
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/20180827_052338.jpg" width="20%" height="20%">
 
-IMAGE Stock Motor
-20180805_145138
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/20180805_145138.jpg" width="20%" height="20%">
 
 Therefore, a SCR controlled DC motor setup was needed. Given the *Cheap* requirement I scrubed ebay for a cheap DC motor. I found that used DC motors from tredmills seem to be abundent and are therefore reasonably priced. I found mine for ~$30.
 
-IMAGE DC Motor
-ebay.jpg
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/ebay.jpg">
 
 A small bracket had to be made to adapat the motor to the band saw frame
 
-IMAGE bracket
-Motor Mount Assembly
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Motor Mount Assembly.png" width="20%" height="20%">
 
-IMAGE Spacer
-Motor Spacer
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Motor Spacer.png" width="20%" height="20%">
 
 In order to control the motor I found a generic SCR speed control. The exact feature of the SCR were not necessary to specify other than it needed to be able to handle sufficient power. 4000W was probably over kill, but rather more than not enough, and given the price for smaller units was roughly the same, this did the trick.
 
-IMAGE SCR
-AC-220V-4000W-High-Power-SCR-Speed-Controller-Electronic-Voltage-Regulator-Governor-20-18L (4)
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/AC-220V-4000W-High-Power-SCR-Speed-Controller-Electronic-Voltage-Regulator-Governor-20-18L (4).jpg" width="20%" height="20%">
 
 The SCR needed a couple of mods to fine tune the upper and lower speed bounds. This is expanded on more in in the electronics section.
 
 In order to install the motor I had a to get small belt pully mate to the motor.
 
-IMAGE pully
-XL-12-Teeth-7mm-Aluminum-Bore-Timing-Belt-Idler-Pulley-Flange-Synchronous-Wheel-for-10mm
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/XL-12-Teeth-7mm-Aluminum-Bore-Timing-Belt-Idler-Pulley-Flange-Synchronous-Wheel-for-10mm.jpg" width="20%" height="20%">
 
 I then needed an clean way to mount the SCR on the frame which led to the need to design an enclosure to house and mount the SCR.
 
 I figured, if I am going to make a custom enclosure might as well make a display to disply the FPM of the blade; I mean I've come this far, why not.
 
-IMAGE Enclosure
-Controller Assembly
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Controller Assembly.png" width="20%" height="20%">
 
 Lastely I designed a small board which reads a hall sensor on the back of the motor, then converts the motor shaft speed to FPM, and displays this on a small 7-Segment output. 
 
-20180802_165257
-IMAGE controller
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/20180802_165257.jpg" width="20%" height="20%">
 
-IMAGE hall effect
-20180802_165301
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/20180802_165301.jpg" width="20%" height="20%">
 
 ## The Physical Form
 
@@ -88,6 +78,28 @@ IMAGE hall effect
 
 ### Electronics
 
+#### SCR Modifications
+
+#### Hall Effect Sensor
+
+#### Tachometer Board
+All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. 
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Tachometer.sch.svg" width="20%" height="20%">
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/e889038e-7901-4f7f-9a18-62940a5edb01_1_0_1.png" width="20%" height="20%"> <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/e889038e-7901-4f7f-9a18-62940a5edb01_2_0_1.png" width="20%" height="20%">
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_1.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_2.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_3.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_4.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_5.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_6.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_7.png" width="20%" height="20%">
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/BOM.jpg" width="40%" height="40%">
+
+ADD COMONENTS + LINKS to Store 
+
 ### Software
 
+# Support Projects Like This
+
 # Safety/Disclaimer
+I am furnishing this item/content "as is". I do not does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
+
+In no respect shall I incur any liability for any damages, including, but limited to, direct, indirect, special, or consequential damages arising out of, resulting from, or any way connected to the use of the item, whether or not based upon warranty, contract, tort, or otherwise; whether or not injury was sustained by persons or property or otherwise; and whether or not loss was sustained from, or arose out of, the results of, the item/content, or any services that may be provided herein.
