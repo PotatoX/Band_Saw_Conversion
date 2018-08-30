@@ -1,6 +1,8 @@
 # Band_Saw_Conversion
 
 ## Summary
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/20180805_144302.jpg" width="50%" height="50%">
+
 Recently I needed (had an excuse to get) a band saw capable of cutting metal for a few of my projects. As with most of my projects/hobbies there are a number of outcomes I seek:
 
 * Cheap
