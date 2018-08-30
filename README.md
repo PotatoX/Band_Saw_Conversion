@@ -102,6 +102,6 @@ ADD COMONENTS + LINKS to Store
 # Support Projects Like This
 
 # Safety/Disclaimer
-I am furnishing this item/content "as is". I do not does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
+I am furnishing this item/content "as is". I do not provide any warranty of the item/content whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
 
 In no respect shall I incur any liability for any damages, including, but limited to, direct, indirect, special, or consequential damages arising out of, resulting from, or any way connected to the use of the item, whether or not based upon warranty, contract, tort, or otherwise; whether or not injury was sustained by persons or property or otherwise; and whether or not loss was sustained from, or arose out of, the results of, the item/content, or any services that may be provided herein.
