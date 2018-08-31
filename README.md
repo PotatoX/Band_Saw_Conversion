@@ -1,6 +1,8 @@
 # Band_Saw_Conversion
 
 ## Summary
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/20180805_144302.jpg" width="50%" height="50%">
+
 Recently I needed (had an excuse to get) a band saw capable of cutting metal for a few of my projects. As with most of my projects/hobbies there are a number of outcomes I seek:
 
 * Cheap
@@ -75,6 +77,11 @@ Lastely I designed a small board which reads a hall sensor on the back of the mo
 ## The Physical Form
 
 ### Hardware
+The enclosure has been modeled in Onshape, source files can be found [here](https://cad.onshape.com/documents/ca0881e1177c075414a017b7/w/e514d8a98751ae0bca0296ff/e/90af0d38bd02678226dfc615).
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 1.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 2.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 3.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 4.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 5.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 6.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 7.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 8.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 9.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 10.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 11.jpg" width="20%" height="20%">
+
+If you are in need of a 3D printed enclosure, let me know and I will be happy to add them to my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu).
 
 ### Electronics
 
@@ -83,7 +90,7 @@ Lastely I designed a small board which reads a hall sensor on the back of the mo
 #### Hall Effect Sensor
 
 #### Tachometer Board
-All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. 
+The design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. I have excess boards that will be listed on my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu) along with some of the odd components.
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Tachometer.sch.svg" width="20%" height="20%">
 
@@ -93,13 +100,14 @@ All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board 
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/BOM.jpg" width="40%" height="40%">
 
-ADD COMONENTS + LINKS to Store 
+If you need a component not currently listed, let me know and I will be happy to add them to my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu) along with some of the odd components..
 
 ### Software
+[Arduino firmware can be found here.](https://github.com/PotatoX/Band_Saw_Conversion/tree/master/Software/Arduino/Tachometer_Rev_A)
 
 # Support Projects Like This
 
 # Safety/Disclaimer
-I am furnishing this item/content "as is". I do not does not provide any warranty of the item whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
+I am furnishing this item/content "as is". I do not provide any warranty of the item/content whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
 
 In no respect shall I incur any liability for any damages, including, but limited to, direct, indirect, special, or consequential damages arising out of, resulting from, or any way connected to the use of the item, whether or not based upon warranty, contract, tort, or otherwise; whether or not injury was sustained by persons or property or otherwise; and whether or not loss was sustained from, or arose out of, the results of, the item/content, or any services that may be provided herein.
