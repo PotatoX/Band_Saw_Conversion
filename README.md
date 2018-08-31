@@ -95,6 +95,8 @@ The design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board 
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/BOM.jpg" width="40%" height="40%">
 
+If you need a component not currently listed, let me know and I will be happy to add them to my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu) along with some of the odd components..
+
 ### Software
 
 # Support Projects Like This
