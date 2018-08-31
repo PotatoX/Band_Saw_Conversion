@@ -85,9 +85,7 @@ Lastely I designed a small board which reads a hall sensor on the back of the mo
 #### Hall Effect Sensor
 
 #### Tachometer Board
-All design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. I have excess boards that will be listed on OpenBazaar along with some of the odd components.
-
-ADD OPENBAZAAR LINK
+The design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. I have excess boards that will be listed on my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu) along with some of the odd components.
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Tachometer.sch.svg" width="20%" height="20%">
 
@@ -96,8 +94,6 @@ ADD OPENBAZAAR LINK
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_1.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_2.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_3.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_4.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_5.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_6.png" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/Binder1_Page_7.png" width="20%" height="20%">
 
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Publish/BOM.jpg" width="40%" height="40%">
-
-ADD COMONENTS + LINKS to Store 
 
 ### Software
 
