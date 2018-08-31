@@ -106,6 +106,7 @@ If you need a component not currently listed, let me know and I will be happy to
 [Arduino firmware can be found here.](https://github.com/PotatoX/Band_Saw_Conversion/tree/master/Software/Arduino/Tachometer_Rev_A)
 
 # Support Projects Like This
+You can support projects like this by using my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu). Like all hobbies, one that self-fund are always easier progress.
 
 # Safety/Disclaimer
 I am furnishing this item/content "as is". I do not provide any warranty of the item/content whatsoever, whether express, implied, or statutory, including, but not limited to, any warranty of merchantability or fitness for a particular purpose or any warranty that the contents of the item/content will be error-free.
