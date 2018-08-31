@@ -77,6 +77,11 @@ Lastely I designed a small board which reads a hall sensor on the back of the mo
 ## The Physical Form
 
 ### Hardware
+The enclosure has been modeled in Onshape, source files can be found [here](https://cad.onshape.com/documents/ca0881e1177c075414a017b7/w/e514d8a98751ae0bca0296ff/e/90af0d38bd02678226dfc615).
+
+<img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 1.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 2.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 3.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 4.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 5.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 6.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 7.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 8.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 9.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 10.jpg" width="20%" height="20%"><img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Pictures/Model 11.jpg" width="20%" height="20%">
+
+If you are in need of a 3D printed enclosure, let me know and I will be happy to add them to my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu).
 
 ### Electronics
 
@@ -98,6 +103,7 @@ The design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board 
 If you need a component not currently listed, let me know and I will be happy to add them to my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu) along with some of the odd components..
 
 ### Software
+[Arduino firmware can be found here.](https://github.com/PotatoX/Band_Saw_Conversion/tree/master/Software/Arduino/Tachometer_Rev_A)
 
 # Support Projects Like This
 
