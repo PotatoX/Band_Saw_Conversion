@@ -86,8 +86,12 @@ If you are in need of a 3D printed enclosure, let me know and I will be happy to
 ### Electronics
 
 #### SCR Modifications
+Unfortunately I forgot to take pictures while modifing the SCR. If you get a generic SCR you simply have to swap out the the potentiometer some one that is of a range more appropraite for the speeds you whish to operate at. This will be SCR and motor dependent. In my case I added a 33k resistor in series with a 50K pot.
 
 #### Hall Effect Sensor
+The hall effect sensor I used was an A3141 IC. This worked for my setup given the magnet I used and its location on the rear portion of the motor shaft. Any hall effect sensor in this family should do the trick.
+
+[Datasheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Electronics/KiCad/Tachometer/Datasheets/A3141-2-3-4-Datasheet.pdf)
 
 #### Tachometer Board
 The design has been complete in KiCad. Input either 120V AC or 6V-12V DC. Board can be but down to remove AC section if DC is used. I have excess boards that will be listed on my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu) along with some of the odd components.
