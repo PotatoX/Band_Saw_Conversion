@@ -112,7 +112,15 @@ If you need a component not currently listed, let me know and I will be happy to
 There are a couple of ways to calculate the correct slope value (Line 35) for the firmware:
 
 Method 1 - Experimentation w/ Tachometer:
-With this m
+This method requires a [contactless tachometer](https://www.aliexpress.com/item/2017-Hot-Selling-NEW-Digital-Laser-Photo-Tachometer-Non-Contact-RPM-Tach-Speed-Gauge-Engine-High/32827623720.html). 
+
+Image of tachometer
+
+Initially set the slope to 1 and flash the controller.
+Connect the controller board to the saw and verify proper operation
+Measure the diameter of one of your blade drive wheels( Image of wheel with arrow).
+Place a tachometer reflector on the blade drive wheel and test that stable RPM readings can be taken. *Caution* as the cover to the saw is open in order to take this measurement take extream care to be as far away from the blade as possible, and allow yourself multiple options for escape and power shut off incase the blade should come off the drive wheels.
+
 
 
 Method 2 - Ratio Calculations:
