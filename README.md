@@ -109,6 +109,14 @@ If you need a component not currently listed, let me know and I will be happy to
 ### Software
 [Arduino firmware can be found here.](https://github.com/PotatoX/Band_Saw_Conversion/tree/master/Software/Arduino/Tachometer_Rev_A)
 
+There are a couple of ways to calculate the correct slope value (Line 35) for the firmware:
+
+Method 1 - Experimentation w/ Tachometer:
+With this m
+
+
+Method 2 - Ratio Calculations:
+
 # Support Projects Like This
 You can support projects like this by using my [OpenBazzar store](https://openbazaar.com/store/QmVFRGwApdcef56Be7FPXnXQaB79rYrve3otFsrWvSwbAu). Like all hobbies, ones that are self-funded are always easier progress.
 
