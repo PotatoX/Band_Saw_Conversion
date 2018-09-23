@@ -124,8 +124,8 @@ This method requires a [contactless tachometer](https://www.aliexpress.com/item/
 4. Place a tachometer reflector on the blade drive wheel and test that stable RPM readings can be taken. *Caution* as the cover to the saw is open in order to take this measurement take extream care to be as far away from the blade as possible, and allow yourself multiple options for escape and power shut off incase the blade should come off the drive wheels.
 5. Start the band saw at a low speed and record both the reading on the controller and the reading on the tachometer.
 6. Repeat measurements various times in order to take readings through out the intended operating speed range.
-7. Using a [spread sheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods) convert the tachometer readings to SFM
-8. Using a [spread sheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods) plot the controller readings vs the SFM(tachometer readings).
+7. Using a [spread sheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods?raw=true) convert the tachometer readings to SFM
+8. Using a [spread sheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods?raw=true) plot the controller readings vs the SFM(tachometer readings).
 10. Generate a linear fit, note the slope of the fit equation.
 11. Input the slope into the firmware of the controller and re-flash. The controller should now read in SFM.
 
@@ -133,7 +133,7 @@ This method requires a [contactless tachometer](https://www.aliexpress.com/item/
 1. Measure the diameter of one of your blade drive wheels.
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/Method2.jpg" width="10%" height="10%">
 2. Count the teeth of the motor pully and the blade wheel pully.
-3. Enter the all values in the [spread sheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods).
+3. Enter the all values in the [spread sheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods?raw=true).
 4. Input the slope into the firmware of the controller and flash. The controller should now read in SFM.
 
 # Support Projects Like This
