@@ -122,7 +122,7 @@ This method requires a [contactless tachometer](https://www.aliexpress.com/item/
 3. Measure the diameter of one of your blade drive wheels.
 <img src="https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/Method1.jpg" width="10%" height="10%">
 
-4. Place a tachometer reflector on the blade drive wheel and test that stable RPM readings can be taken. *Caution* as the cover to the saw is open in order to take this measurement take extream care to be as far away from the blade as possible, and allow yourself multiple options for escape and power shut off incase the blade should come off the drive wheels.
+4. Place a tachometer reflector on the blade drive wheel and test that stable RPM readings can be taken. **DANGER - _As the cover to the saw is open in order to take this measurement take extream care to be as far away from the blade as possible, and allow yourself multiple options for escape and power shut off incase the blade should come off the drive wheels._**
 5. Start the band saw at a low speed and record both the reading on the controller and the reading on the tachometer.
 6. Repeat measurements various times in order to take readings through out the intended operating speed range.
 7. Using a [spreadsheet](https://github.com/PotatoX/Band_Saw_Conversion/blob/master/Software/Arduino/Tachometer_Rev_A/BandSaw%20Slope%20Calculations.ods?raw=true) convert the tachometer readings to SFM
